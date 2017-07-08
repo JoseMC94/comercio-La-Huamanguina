@@ -1,0 +1,909 @@
+section#form_lo{
+	border        : 1px solid #E2E2E2;
+	border-radius : 25px;
+	margin        : 30px auto;
+	margin-bottom : 10px;
+	max-width     : 100%;
+	padding       : 0px;
+	text-align    : center;
+}
+
+section#contacto{
+	border        : 1px solid #E2E2E2;
+	border-radius : 25px;
+	margin        : 20px auto;
+	margin-left   : 15%;
+	margin-bottom : 10px;
+	max-width     : 100%;
+	padding       : 0px;
+	text-align    : center;
+	width         : 45%;
+}
+section#contacto_info{
+	margin       : 30px auto;
+	margin-top   : 5%;
+	margin-left : 5%;
+	padding      : 0px;
+	text-align   : center;
+}
+
+section#Servicios{
+	border        : 1px solid #E2E2E2;
+	border-radius : 25px;
+	margin        : 30px auto;
+	margin-left   : 15%;
+	margin-bottom : 10px;
+	max-width     : 100%;
+	padding       : 0px;
+	text-align    : center;
+	width         : 45%;
+}
+
+section#nosotros{
+}
+
+section#nosotros_logo{
+}
+
+section#form_test{
+	border        : 1px solid #E2E2E2;
+	border-radius : 10px;
+	margin        : 10px auto;
+	max-width     : 60%;
+	text-align    : center;
+}
+
+section#boton{
+
+	border-radius : 10px;
+	margin        : 0px auto;
+	max-width     : 65%;
+	text-align    : center;
+}
+
+td{
+	color         : #999;
+	padding       : 3px;
+	border-bottom : 1px solid #eee;
+	text-align    : center;
+}
+
+h1 {
+	font-family           : Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	color                 : #ffffff;
+	font-size             : 1.2em;
+	font-weight           : 400;
+	text-align            : center;
+	background            : #2A92D4;
+	margin                : 0 0 25px;
+	overflow              : hidden;
+	padding               : 20px;
+	border-radius         : 35px 0px 35px 0px;
+	-moz-border-radius    : 35px 0px 35px 0px;
+	-webkit-border-radius : 35px 0px 35px 0px;
+	border                : 2px solid #085B86;
+}
+
+h3{
+	font-size: 1.6em;
+}
+
+h6 {
+	color           : #302727;
+	font-family     : sans-serif;
+	font-size       : 15px;
+	padding-left    : 1%;
+	padding-top     : 1%;
+	text-shadow     : 1px 1px 1px #CCCCCC;
+	text-decoration : underline;
+}
+
+.contact_form h1 {
+	font-family           : Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	color                 : #ffffff;
+	font-size             : 1.2em;
+	font-weight           : 400;
+	text-align            : center;
+	background            : #2A92D4;
+	margin                : 0 0 25px;
+	overflow              : hidden;
+	padding               : 20px;
+	border-radius         : 35px 0px 35px 0px;
+	-moz-border-radius    : 35px 0px 35px 0px;
+	-webkit-border-radius : 35px 0px 35px 0px;
+	border                : 2px solid #085B86;
+}
+.contact_form h2 {
+	background    : none repeat scroll 0 0 #F3F3F3;
+	border-radius : 15px;
+	color         : #5CD053;
+	font-family   : sans-serif;
+	font-size     : 25px;
+	padding       : 10px;
+	text-shadow   : 1px 1px 1px #CCCCCC;
+}
+
+.contact_form h3 {
+	text-align    : center;
+	background    : none repeat scroll 0 0 #FFFFFF;
+	border-radius : 15px;
+	text-decoration: underline;
+	color         : #5CD053;
+	font-family   : sans-serif;
+	font-size     : 25px;
+	padding       : 10px;
+	text-shadow   : 1px 1px 1px #CCCCCC;
+
+}
+.contact_form h4 {
+	padding-left: 5px;
+	color         : #009CFF;
+	font-family   : sans-serif;
+	font-size     : 18px;	
+	text-shadow   : 2px 2px 2px #CCCCCC;
+}
+
+.contact_form h5 {
+	color       : #302727;
+	font-family : sans-serif;
+	font-size   : 15px;
+	padding     : 2px;
+	text-shadow : 1px 1px 1px #CCCCCC;
+}
+
+.contact_form h6 {
+	text-align      : center;
+	color           : #302727;
+	font-family     : sans-serif;
+	font-size       : 18px;
+	margin-bottom   : 15px;
+	text-shadow     : 1px 1px 1px #CCCCCC;
+	text-decoration : none;
+}
+
+/*ESTILOS PARA LOS UL y Li del formulario*/
+
+.contact_form ul{
+	list-style-type : none;
+	margin          : 0px;
+	padding         : 0px;
+}
+
+.contact_form li {
+	padding       : 10px;
+	border-bottom : 1px  #eee;
+	position      : relative;
+}
+.formulario li{
+	border-bottom: 1px  #eee;
+	position:relative; 
+}
+
+.contact_form li#eti {
+	padding-top   : 0px;
+	padding-left  : 28px;
+	padding-right : 28px;
+	border-bottom : 1px solid #eee;
+	position      : relative;
+}
+.contact_form label {
+	text-align    : right;
+	color         : #555555;
+	display       : inline-block;
+	float         : left;
+	margin        : 0px;
+	font-family   : sans-serif;
+	font-size     : 15px;
+	font-weight   : bold;
+	margin-bottom : 5px;
+	padding       : 10px;
+	width         : 90px;
+}
+
+
+.contact_form label.moneda {
+	text-align    : right;
+	color         : #555555;
+	display       : inline-block;
+	float         : left;
+	margin        : 0px;
+	font-family   : sans-serif;
+	font-size     : 1em;
+	font-weight   : bold;
+	margin-bottom : 0px;
+	padding       : 10px;
+	width         : 250px;
+}
+
+.contact_form button {
+	margin-left:90px;
+}
+
+/*estilo caja de texto*/
+
+.contact_form textarea {
+	padding            : 8px;
+	min-width          : 58%;
+	max-width          : 60%;
+	max-height         : 90px;
+	padding            : 5px;
+	border             : 1px solid #aaa;
+	box-shadow         : 0px 0px 3px #ccc, 0 10px 30px #eee inset;
+	border-radius      : 2px;
+	color              : #888;
+	font-family        : Arial,bold,sans-serif;
+	font-size          : 22px;
+	padding-right      : 5px;
+	-moz-transition    : padding .25s;
+	-webkit-transition : padding .25s;
+	-o-transition      : padding .25s;
+	transition         : padding .25s;
+}
+
+
+
+.caja {
+   margin:10px auto 5px auto;	
+   border:1px solid #d9d9d9;
+   height:37px;
+   overflow: hidden;
+   width: 250px;
+   position:relative;
+}
+select {
+   background: transparent;
+   border: none;
+   font-size: 14px;
+   height: 50px;
+   padding: 5px;
+   width: 280px;
+}
+select:focus{ outline: none;}
+
+.caja::after{
+	content:"\025be";
+	display:table-cell;
+	padding-top:7px;
+	text-align:center;
+	width:30px;
+	height:30px;
+	background-color:#d9d9d9;
+	position:absolute;
+	top:0;
+	right:0px;	
+	pointer-events: none;
+}
+
+
+
+.contact_form 
+input.caja[type="password"],
+input.caja[type="email"],
+input.caja[type="text"]
+{
+
+	height             : 20px;
+	width              : 60%;
+	padding            : 5px;
+	border             : 1px solid #aaa;
+	box-shadow         : 0px 0px 3px #ccc, 0 10px 30px #eee inset;
+	border-radius      : 2px;
+	color              : #888;
+	font-family        : Arial,bold,sans-serif;
+	font-size          : 22px;
+	padding-right      : 5px;
+	-moz-transition    : padding .25s;
+	-webkit-transition : padding .25s;
+	-o-transition      : padding .25s;
+	transition         : padding .25s;
+}
+
+
+input.caja[type="number"]{
+
+	height             : 25px;
+	width              : 25%;
+	padding            : 5px;
+	border             : 1px solid #aaa;
+	box-shadow         : 0px 0px 3px #ccc, 0 10px 30px #eee inset;
+	border-radius      : 2px;
+	color              : #888;
+	font-family        : Arial,bold,sans-serif;
+	font-size          : 1.5em;
+	padding-right      : 5px;
+	-moz-transition    : padding .25s;
+	-webkit-transition : padding .25s;
+	-o-transition      : padding .25s;
+	transition         : padding .25s;
+}
+
+.contact_form input.caja:focus, 
+.contact_form textarea:focus{
+	background    : #fff;
+	border        : 1px solid #555;
+	box-shadow    : 0 0 0px #aaa;
+	padding-right : 20px;
+}
+
+#paginas1{
+	cursor             : pointer;
+	background         : -webkit-linear-gradient(#fff 0%, #DEDEDE 100%);
+	background         : -moz-linear-gradient(#fff 0%,#DEDEDE 100%);
+	background         : -ms-linear-gradient(#fff 0%,#DEDEDE 100%);
+	background         : -o-linear-gradient(#fff 0%,#DEDEDE 100%);
+	color              : #999;
+	border             : solid 1px #dedede;
+	border-radius      : 5px;
+	font-size          : 13px;
+	text-align         : center;
+	padding            : 4px;
+	width              : 70px;
+	text-decoration    : none;
+	transition         : all 1s;
+	-moz-transition    : all 1s;
+	-ms-transition     : all 1s;
+	-o-transition      : all 1s;
+	-webkit-transition : all 1s;
+}
+
+#paginas1:hover{
+	color              : #f60;
+	transition         : all 1s;
+	-moz-transition    : all 1s;
+	-ms-transition     : all 1s;
+	-o-transition      : all 1s;
+	-webkit-transition : all 1s;
+}
+
+input.submit,#paginas2{
+	background         : -moz-linear-gradient(#fc0 0%,#f60 100%);
+	background         : -ms-linear-gradient(#fc0 0%,#f60 100%);
+	background         : -o-linear-gradient(#fc0 0%,#f60 100%);
+	background         : -webkit-linear-gradient(#fc0 0%,#f60 100%);
+	background         : linear-gradient	(#fc0 0%,#f60 100%);
+	border             : solid 1px #dedede;
+	border-radius      : 5px;
+	text-align         : center;
+	padding            : 4px;
+	color              : #fff;
+	width              : 100px;
+	height             : 30px;
+	text-decoration    : none;
+	transition         : all 1s;
+	-moz-transition    : all 1s;
+	-ms-transition     : all 1s;
+	-o-transition      : all 1s;
+	-webkit-transition : all 1s;
+}
+
+input.submit:hover{
+	cursor             : pointer;
+	background         : -webkit-linear-gradient(#fff 0%, #DEDEDE 100%);
+	background         : -moz-linear-gradient(#fff 0%,#DEDEDE 100%);
+	background         : -ms-linear-gradient(#fff 0%,#DEDEDE 100%);
+	background         : -o-linear-gradient(#fff 0%,#DEDEDE 100%);
+	color              : #999;
+	transition         : all 1s;
+	-moz-transition    : all 1s;
+	-ms-transition     : all 1s;
+	-o-transition      : all 1s;
+	-webkit-transition : all 1s;
+}
+
+
+.div-img {
+    padding: 0px 0;
+    border-bottom: 0px ; 
+}
+.div-img .img {
+  	width: 100%;
+  	max-height: 200px;
+ 	max-width:900px;
+  	border-radius: 10px;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 100%;
+  	-webkit-border-radius: 10px;
+  	-moz-border-radius: 10px;
+  	transform: scale(1);
+  	-ms-transform: scale(1);
+  	-moz-transform: scale(1);
+  	-webkit-transform: scale(1);
+  	-o-transform: scale(1);
+  	-webkit-transition: all 400ms ease-in-out;
+  	-moz-transition: all 400ms ease-in-out;
+  	-ms-transition: all 400ms ease-in-out;
+  	-o-transition: all 400ms ease-in-out;
+}
+
+.div-img:hover .img {
+  transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  -moz-transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -o-transform: scale(0.95);
+}
+
+.button {
+ position: relative;
+  display          : inline-block;
+  border-radius    : 4px;
+  border           : none;
+  color            : #FFFFFF;
+  text-align       : center;
+  font-size        : 20px;
+  padding          : 10px;
+  width            : 50%;
+  transition       : all 0.5s;
+  cursor           : pointer;
+  margin           : 0px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+.butonred{
+ background-color : #f4511e;
+}
+
+.butongreen{
+background-color : #40E26A;
+}
+
+.butonceleste{
+background-color : #1FA7CE;
+}
+
+.button span {
+cursor     : pointer;
+display    : inline-block;
+position   : relative;
+transition : 0.5s;
+}
+
+.button span : after {
+content      : '»';
+position     : absolute;
+opacity      : 0;
+top          : 0;
+right        : -20px;
+transition   : 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.formulario h3 {
+	background    : none repeat scroll 0 0 #409CF2;
+	border-radius : 4px;
+	color         : #FFFFFF;
+	font-family   : sans-serif;
+	font-size     : 1.3em;
+	padding       : 5px;
+	text-shadow   : 1px 1px 1px #CCCCCC; 
+
+}
+.formulario h2 {
+	background    : none repeat scroll 0 0 #F3F3F3;
+	border-radius : 10px;
+	color         : #5CD053;
+	font-family   : sans-serif;
+	font-size     : 22px;
+	padding       : 5px;
+	text-shadow   : 1px 1px 1px #CCCCCC; }
+
+.formulario h1 {
+    font-size     : 16px;
+    color         : #40B1F2;
+    margin-bottom : 20px;
+    margin-left   : 20px;
+}
+
+.formulario > div {
+   
+    border-bottom: 1px solid #ccc; }
+
+.formulario .radio label,
+.formulario .checkbox label{
+
+    display            : inline-block;
+    cursor             : pointer;
+    color              : #40B1F2;
+    position           : relative;
+    padding            : 5px 15px 5px 51px;
+    font-size          : 1em;
+    border-radius      : 5px;
+    -webkit-transition : all 0.3s ease;
+    -o-transition      : all 0.3s ease;
+    transition         : all 0.3s ease;
+}
+
+.formulario .radio label:hover,
+.formulario .checkbox label:hover {
+      background: #EEEEEE; }
+
+.formulario .radio label:before,
+.formulario .checkbox label:before{
+      content       : "";
+      display       : block;
+      width         : 17px;
+      height        : 17px;
+      position      : absolute;
+      left          : 15px;
+      border-radius : 50%;
+      background    : none;
+      border        : 3px solid #40B1F2;
+}
+
+.formulario input[type="radio"] {
+    display: none; }
+.formulario input[type="radio"]:checked + label:before {
+    display: none; }
+.formulario input[type="radio"]:checked + label {
+    padding       : 5px 15px;
+    background    : #40B1F2;
+    border-radius : 2px;
+    color         : #fff;
+}
+
+.formulario .checkbox label:before {
+   border-radius: 3px; }
+.formulario .checkbox input[type="checkbox"] {
+    display: none; }
+.formulario .checkbox input[type="checkbox"]:checked + label:before {
+      display: none; }
+.formulario .checkbox input[type="checkbox"]:checked + label {
+      background: #FF4136;
+      color: #fff;
+      padding: 5px 15px; }
+
+/* Configuración de resolución */
+
+@media screen and (min-width:1367px){
+	.contact_form 
+	h1{font-size: 1.7em;}
+	h6{font-size: 1.2em;}
+	section#form_test{
+		margin-left : 20%;
+		width       : 60%;
+		margin-top  : 1%;
+		max-width   : 100%;
+		padding     : 0px;
+		text-align: left;
+		float       : left;
+	}
+	img#test{
+
+	width      : 100%;
+	max-width: 960px;
+	max-height:350px;
+	}
+	.button {
+	width: 30%;
+  font-size        : 25px;
+  padding          : 5px;
+
+
+}
+	section#contacto{
+		float       : left;
+	}
+	section#contacto_info{
+		float: left;
+	}
+	section#Servicios{		
+		margin-left : 12%;
+		width       : 75%;
+		margin-top  : 1%;
+		max-width   : 100%;
+		padding     : 0px;
+		text-align  : center;
+		float       : left;
+	}
+	section#nosotros{
+		margin-left  : 10%;
+		width        : 55%;
+		margin-top   : 1%;
+		max-width    : 100%;
+		padding      : 0px;
+		text-align   : center;
+		float        : left;
+	}
+	section#nosotros_logo{
+		width        : 30%;
+		margin-top   : 3%;
+		float        : left;
+	}
+	section#form_lo{
+		max-width   : 35%;
+	}
+	input.submit,#paginas1{
+		font-size   : 13px;
+	}
+
+	#paginador{
+		padding     : 10px 0px 10px;
+		max-width   : 90%;
+	}
+}
+
+@media screen and (min-width:981px) and (max-width:1366px){
+	.contact_form 
+	h1{font-size: 1.3em;}
+	h6{font-size: 1.1em;}
+	section#contacto{float: left;}
+	section#contacto_info{float: left;}
+	section#form_test{
+		margin-left : 18%;
+		width       : 65%;
+		margin-top  : 1%;
+		max-width   : 100%;
+		padding     : 0px;
+		text-align: left;
+		float       : left;
+	}
+	img#test{
+
+	width      : 100%;
+	max-width: 960px;
+	max-height:200px;
+	}
+	.button {
+  font-size        : 25px;
+  padding          : 5px;
+   width            : 32%;
+
+}
+	section#Servicios{		
+		margin-left  : 12%;
+		width        : 70%;
+		margin-top   : 1%;
+		max-width    : 100%;
+		padding      : 0px;
+		text-align   : center;
+		float        : left;}
+	section#nosotros{
+		margin-left  : 10%;
+		width        : 55%;
+		margin-top   : 1%;
+		max-width    : 100%;
+		padding      : 0px;
+		text-align   : center;
+		float        : left;
+	}
+	section#nosotros_logo{
+		width        : 30%;
+		margin-top   : 3%;
+		float        : left;
+	}
+	section#form_lo{
+		max-width    : 40%;
+	}
+	input.submit,#paginas1{
+		font-size    : 13px;
+	}
+	#paginador{
+		padding      : 10px 0px 10px;
+		max-width    : 90%;
+	}
+}
+
+@media screen and (min-width:490px) and (max-width:980px){
+section#contacto{
+	border        : 1px solid #E2E2E2;
+	border-radius : 25px;
+	margin        : 20px auto;
+	margin-left   : 15%;
+	margin-bottom : 10px;
+	max-width     : 100%;
+	padding       : 0px;
+	text-align    : center;
+	width         : 45%;
+}
+section#contacto_info{
+	width         : 40%;
+	margin       : 0px auto;
+	margin-top   : 5%;
+	margin-right: 0%;
+	margin-left : 0%;
+	padding      : 0px;
+	text-align   : center;
+}
+section#contacto{
+	float: left;
+	    margin: 15px auto;	
+	    margin-left   : 2%;
+		width         : 55%;}
+section#contacto_info{float: left;}
+section#Servicios{	
+	margin-left: 5%;
+	width: 90%;
+	margin-top: 2%;
+	max-width: 100%;
+	padding: 0px;
+	text-align: center;
+	float:left;
+	}
+
+.contact_form h2 {
+	font-size     : 1.2em;
+}
+
+.contact_form h3 {
+	font-size     : 1.2em;
+}
+.contact_form h4 {
+	font-size     : 1.0em;	
+}
+
+.contact_form h6 {
+	font-size       : 0.8em;
+}
+
+
+.contact_form 
+input.caja[type="password"],
+input.caja[type="email"],
+input.caja[type="text"],
+input.caja[type="number"]{
+
+	width              : 55%;
+	font-size          : 1.0em;
+}
+
+.contact_form textarea {
+	padding            : 8px;
+	min-width          : 54%;
+	max-width          : 55%;
+	max-height         : 90px;
+	padding            : 5px;
+}
+
+section#nosotros{
+		margin-left  : 10%;
+		width        : 55%;
+		margin-top   : 1%;
+		max-width    : 100%;
+		padding      : 0px;
+		text-align   : center;
+		float        : left;
+}
+section#nosotros_logo{
+	margin-left: 25%;
+	margin-top: 30%;
+	width: 50%;
+}
+img#logo_is{
+
+	width: 100%;
+}
+
+section#form_test{
+		margin-left : 18%;
+		width       : 65%;
+		margin-top  : 1%;
+		max-width   : 100%;
+		padding     : 0px;
+		text-align: left;
+		float       : left;
+	}
+.button {
+  font-size        : 25px;
+  padding          : 5px;
+   width            : 32%;
+
+}
+section#form_lo{
+	height: 300px;
+	max-width: 80%;
+}
+
+#paginas1,#paginas2{
+	font-size: 13px;
+	}
+
+#paginador{
+	padding: 10px 0px 10px;
+	}
+}
+
+@media screen and (max-width:489px){
+	.myButton {
+		margin-top: 1%;
+		margin-bottom: 0%;
+		padding-top: 5%;
+		margin-left: 4%;
+		}
+	.myButton:active {
+		margin-top: 1%;
+		margin-bottom: 0%;
+		padding-top: 5%;
+		margin-left: 4%;
+	}
+
+	section#Servicios{		
+		margin-left: 2%;
+		width: 95%;
+		margin-top: 2%;
+		max-width: 100%;
+		padding: 0px;
+		text-align: center;
+	}
+
+	section#form_test{
+		max-width: 95%;
+		text-align: left;
+	}
+
+.contact_form 
+input.caja[type="password"],
+input.caja[type="email"],
+input.caja[type="text"],
+input.caja[type="number"]{
+
+	width              : 55%;
+	font-size          : 1.0em;
+}
+
+.contact_form textarea {
+	padding            : 8px;
+	min-width          : 49%;
+	max-width          : 50%;
+	max-height         : 90px;
+	padding            : 5px;
+}
+
+.button {
+	 margin-left: 5px;
+  font-size        : 25px;
+  padding          : 2px;
+   width            : 45%;
+
+}
+	img#test{
+
+	width      : 100%;
+	max-width: 350px;
+	max-height:120px;
+	}
+		
+	section#contacto{width:90%;
+		margin-left: 4%;
+	}
+
+	section#nosotros{
+		margin-left: 5%;
+		width: 90%;
+	}
+	section#nosotros_logo{
+		width: 50%;
+		margin-left: 30%;
+	}
+
+	img#logo_is{
+		width: 100%;
+		margin-left: 0em;
+		margin-right: 1em;
+	}
+	section#form_lo{
+		max-width: 95%;
+	}
+	.contact_form 
+	input.caja[type="password"],
+	input.caja[type="email"],
+	input.caja[type="text"],
+	input.caja[type="number"]{
+		width: 50%;
+	}
+	#paginas1,#paginas2{
+		font-size: 12px;
+	}
+
+	#paginador{
+		padding: 10px 0px 10px;
+	}
+}

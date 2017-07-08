@@ -1,0 +1,198 @@
+footer{
+
+	text-align: center;
+	padding: 0px;
+	color:  #0195CC;
+}
+
+h3#footer{
+
+	background: none repeat scroll 0 0 #0195CC;
+	border-radius: 5px;
+	color: #E8E8E8;
+	font-family: sans-serif;
+	font-size: 1.2em;
+	padding: 5px;
+	text-shadow: 1px 1px 1px #898989;
+}
+
+.b-red{
+	background: #ff3738;
+}
+
+.b-blue{
+	background: #1ba1e2;
+}
+
+.b-orange{
+	background: #f96b1e;
+}
+
+.b-gree{
+	background: #2bec12;
+}
+
+.b-purple{
+	background: #e816dc;
+}
+.b-yellow{
+	background: #f4d710;
+}
+
+.b-1{
+	background: #4F7E99;
+}
+
+.b-2{
+	background: #43B689;
+}
+
+.b-3{
+	background: #AC6D3F;
+}
+
+.b-4{
+	background: #AC3A52;
+}
+
+#img{
+	height: 75px;
+	width: 75px;
+	border-radius: 70px;
+	margin:4px auto;
+}
+
+/* Service */
+
+.mini-title{
+
+	text-align: center;
+}
+
+.service-block{
+
+	padding: 9px;
+	text-align: center;
+	margin: 10px 5px 10px;
+	max-width: 400px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #191919;
+}
+
+.service-image{
+border-radius: 50px;
+width: 85px;
+height: 85px;
+margin: 0px auto;
+transition:  0.3s;
+-moz-transition:  0.3s;
+-ms-transition:  0.3s;
+-o-transition:  0.3s;
+-webkit-transition:  0.3s;
+}
+
+.service-image:hover{
+padding: 4px;
+margin: -4px auto;
+transition:  0.3s;
+-moz-transition:  0.3s;
+-ms-transition:  0.3s;
+-o-transition:  0.3s;
+-webkit-transition:  0.3s;
+}
+
+.service-image a, .service-image a:hover
+{
+color:#888;
+text-decoration: none;
+}
+
+.service-image a, .service-block a:hover
+{
+text-decoration: none;
+color:#fff;
+text-transform: uppercase;
+}
+
+.service-block h4{
+margin-top:10px;
+font-size: 16px;
+line-height: 23px;
+}
+
+.service-block p{
+font-size: 10px;
+padding: 12px;
+color: #888;
+font-style: italic;
+}
+
+.span3{
+	margin: 0px 0px 0px;
+	display: inline-block;
+}
+
+
+@media screen and (min-width:1367px){
+	.service-block p {
+		font-size: 18px;
+	}
+	.service-block{
+		float: right;
+		margin: -20px;
+	}
+	.span3{
+		padding: 35px;
+		width: 170px;
+	}
+
+}
+@media screen and (min-width:981px) and (max-width:1366px){
+	.service-block p {
+		font-size: 15px;
+	}
+
+	.service-block{
+		float: right;
+		margin: 0px;
+	}
+	/*distancia entre iconos*/
+	.span3{
+		padding:20px;
+		width: 180px;
+	}
+}
+
+@media screen and (min-width:481px) and (max-width:980px){
+
+	.span3{
+		padding: 15px;
+		width: 190px;
+	}	
+	.service-block p {
+		font-size: 0.9em;
+	}
+}
+
+@media screen and (max-width:480px){
+	.service-block p {
+		font-size: 0.8em;
+	}
+	#img{
+		height: 60px;
+		width: 60px;
+		border-radius: 30px;
+		margin: 5px;
+	}
+	.service-image{
+		width: 70px;
+		height: 70px;
+		margin: 0px auto;
+	}
+
+	.span3{
+		padding: 7px;
+		width: 145px;
+	}
+
+}
