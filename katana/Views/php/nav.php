@@ -9,42 +9,42 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-				</div> 
+				</div>
 				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
-					<ul class="nav navbar-nav">
+					<ul class ="nav navbar-nav">
 
 						<li><a href="./"><i class="fa fa-home"></i> Inicio</a></li>
-						
+
 
 						<?php
-						$cats = CategoryData::getPublics();
-						?>
-						<?php if(count($cats)>0):?>
+$cats = CategoryData::getPublics();
+?>
+						<?php if (count($cats) > 0): ?>
 
 						<li class="dropdown">
 						    <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Productos<b class="caret"></b></a>
 						<ul class="dropdown-menu multi-column columns-3">
-						
+
 						<div class="row">
-						<?php foreach($cats as $cat):?>
-						
+						<?php foreach ($cats as $cat): ?>
+
 						<div class="col-sm-3">
 						<ul class="multi-column-dropdown">
-						
+
 						<a href="index.php?view=productos&cat=<?php echo $cat->short_name; ?>">
 
 								<h6><?php echo $cat->name; ?></h6>
 
 						</a>
-						
+
  						</ul>
 						</div>
-						
-						<?php endforeach; ?>
+
+						<?php endforeach;?>
 						</div>
 						</ul>
 						</li>
-						<?php endif; ?>
+						<?php endif;?>
 
 
 
@@ -89,12 +89,12 @@
 									<div class="clearfix"></div>
 								</div>
 							</ul>
-						</li> 
+						</li>
 						-->
 
-						<li><a href="about.html">Nosotros</a></li>
-						<li><a href="short-codes.html">Servicios</a></li> 
-						<li><a href="mail.html">Contacto</a></li>
+						<li><a href="index.php?view=about">Nosotros</a></li>
+						<li><a href="index.php?view=short-codes">Servicios</a></li>
+						<li><a href="index.php?view=contacto">Contacto</a></li>
 					</ul>
 				</div>
 			</nav>
